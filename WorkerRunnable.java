@@ -1,20 +1,13 @@
 package V2UPLOAD;
 
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.net.Socket;
-import java.util.Hashtable;
 
-/**
-
- */
 public class WorkerRunnable implements Runnable{
 
     protected Socket clientSocket = null;
