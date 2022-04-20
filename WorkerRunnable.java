@@ -1,4 +1,4 @@
-package V2;
+package V2UPLOAD;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -19,7 +19,7 @@ public class WorkerRunnable implements Runnable{
 
     protected Socket clientSocket = null;
     protected int serverNUM;
-    protected String root = "G:\\Max\\FDG\\E2\\Info\\Server\\TCP Server\\V2\\USERS\\";
+    protected String root = "YOUR:\\ROOT\\DIR\\";
 
     public WorkerRunnable(Socket clientSocket, int serverNUM) {
         this.clientSocket = clientSocket;
