@@ -45,6 +45,7 @@ public class Auswertung {
                 System.out.print(A);
                 System.out.print(" gestimmt, für ");
                 System.out.print(optionBs[i]);
+                System.out.print(" ");
                 System.out.print(B);
                 System.out.print(" und ");
                 System.out.print(C);
