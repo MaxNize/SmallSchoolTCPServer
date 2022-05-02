@@ -12,7 +12,7 @@ public class WorkerRunnable implements Runnable{
 
     protected Socket clientSocket = null;
     protected int serverNUM;
-    protected String root = "YOUR:\\ROOT\\DIR\\";
+    protected String root = "YOUR:\\ROOT\\DIR\\USERS\\";
 
     public WorkerRunnable(Socket clientSocket, int serverNUM) {
         this.clientSocket = clientSocket;
