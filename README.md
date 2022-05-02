@@ -6,7 +6,7 @@ Getting Started:################################################################
 -Clone the repo and add an empty folder called "USERS".                                                        
 -Enter your root directory in "Auswertung.java" and "WorkerRunnable.java" (notice the layout).                 
 -(The default port is 1234. This can be changed in "MultiThreadedServer.java" and "Client.java".)              
--(If the Client is not on the same maschine the host has to be changed in "Client.java".)                       
+-(If the Client is not on the same machine the host has to be changed in "Client.java".)                       
 -(If the Client is not in the same network, the port has to be port-forwarded and the the host has to be changed.)    
 -Run "MultiThreadedServer.java".                                                                                  
 -In another instance run "Client.java".                                                                           
