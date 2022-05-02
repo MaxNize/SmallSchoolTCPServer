@@ -8,13 +8,13 @@ import java.util.stream.Stream;
 
 public class Auswertung {
     public static long fileCount;
-    public static String root = "YOUR:\\ROOT\\DIR";
+    public static String root = "YOUR:\\ROOT\\DIR\\USERS";
     public static int A = 0;
     public static int B = 0;
     public static int C = 0;
 
     public static void main(String[] args) throws Exception{
-        try (Stream<Path> files = Files.list(Paths.get("YOUR:/ROOT/DIR+/USERS"))) {
+        try (Stream<Path> files = Files.list(Paths.get("YOUR:/ROOT/DIR/USERS"))) {
             fileCount = files.count();
         }
         System.out.print("Teilnehmer: ");
