@@ -77,7 +77,7 @@ public class WorkerRunnable implements Runnable{
                             msgToClient += "\nACCESS GRANTED";
                             String[] questions = {"\nHund(0) oder Katze(1)?", "\nApple(0) oder Android(1)?", "\nKnoppers(0) oder Hanuta(1)?", "\nPizza(0) oder Burger(1)?", "\nMeer(0) oder Berge(1)?", "\nPepsi(0) oder Cola(1)?", "\nSchoko-(0) oder Vanilleeis(1)?", "\nZitronen-(0) oder Pfirsicheistee(1)?", "\nMcDonald's(0) oder Burger King(1)?", "\nsüßes(0) oder salziges(1) Popcorn?", "\nFriends(0) oder How I Met Your Mother(1)?"};
                             int[] vars = {user.hundOderKatze, user.appleOderAndroid, user.knoHan, user.piBU, user.meBe, user.peCo, user.schoVa, user.ziPfi, user.mcB, user.sueSa, user.friHimym};
-                            for (int i = 0; i < 11; i++){
+                            for (int i = 0; i < questions.length; i++){
                                 msgToClient += questions[i];
 
                                 write(bufferedWriter, msgToClient);
