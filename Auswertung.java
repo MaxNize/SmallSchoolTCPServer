@@ -25,7 +25,7 @@ public class Auswertung {
         if (directoryListing != null) {
             String[] optionAs = {"Hund", "Apple", "Knoppers", "Pizza", "Meer", "Pepsi", "Schokoeis", "Zitroneneistee", "McDonald's", "süßes Popcorn", "Friends"};
             String[] optionBs = {"Katze", "Android", "Hanuta", "Burger", "Berge", "Cola", "Vanilleeis", "Pfirsicheistee", "Burger King", "salziges Popcorn", "HIMYM"};
-            for (int i = 0; i < 11; i++){
+            for (int i = 0; i < optionAs.length; i++){
                 for (File child : directoryListing) {
                     user = (Users) SNL2.load(child.toString());
                     int[] vars = {user.hundOderKatze, user.appleOderAndroid, user.knoHan, user.piBU, user.meBe, user.peCo, user.schoVa, user.ziPfi, user.mcB, user.sueSa, user.friHimym};
