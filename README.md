@@ -24,8 +24,7 @@ Commands:#######################################################################
 Modifying the survey:#####################################################################                             
 -In "WorkerRunnable.java":                                                                                          
     --Replace the questions in the "questions" variable to your questions.                                             
-    --Replace the vars in "vars" to those used in "Users.java".                                                      
-    --Set the for-loop to the length of "questions".
+    --Replace the vars in "vars" to those used in "Users.java".                                                              
     --Replace the variable assignment to those used in "Users.java".                                                   
     
 -In "Users.java":                                                                                                         
@@ -33,8 +32,7 @@ Modifying the survey:###########################################################
     
 -In "Auswertung.java":                                                                                              
     --Replace the options in "optionAs" with your option As.                                                        
-    --Replace the options in "optionBs" with your option Bs.                                                           
-    --Set the for-loop to the length of "optionAs".                                                          
+    --Replace the options in "optionBs" with your option Bs.                                                                
     
 -In "USERS" folder:                                                                                          
     --Delete the old users.                                                                                
