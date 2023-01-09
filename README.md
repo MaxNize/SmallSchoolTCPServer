@@ -2,7 +2,7 @@
 
 A small TCP Server to take two options based surveys in class
 
-Contributer: @MarleneInfo
+Contributor: @MarleneInfo
 
 Big shoutouts to @jjenkov and his website https://jenkov.com/tutorials/java-multithreaded-servers/multithreaded-server.html.
 Most of the Server stuff was made by him.
